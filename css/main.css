@@ -37,12 +37,3 @@
   opacity: 0.5;
   z-index: 1;
 }
-
-/* @media (pointer: coarse) and (hover: none) {
-  #intro {
-    background: url('../img/mobile-bg.jpg') black no-repeat center center scroll;
-  }
-  #intro video {
-    display: none;
-  }
-} */
