@@ -1,4 +1,4 @@
-header {
+#intro {
   position: relative;
   background-color: black;
   height: 100vh;
@@ -7,7 +7,7 @@ header {
   overflow: hidden;
 }
 
-header video {
+#intro video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,12 +22,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+#intro .container {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+#intro .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -39,10 +39,10 @@ header .overlay {
 }
 
 @media (pointer: coarse) and (hover: none) {
-  header {
+  #intro {
     background: url('../img/mobile-bg.jpg') black no-repeat center center scroll;
   }
-  header video {
+  #intro video {
     display: none;
   }
 }
